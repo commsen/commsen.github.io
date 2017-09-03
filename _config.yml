@@ -1,0 +1,15 @@
+url:
+baseurl:
+
+# Site settings
+title: COMMSEN International
+email: info@commsen.com
+description: "Helping companies stay engaged with their customers, partners, and employees in this rapidly changing digital world."
+
+address:
+  - line: Bazylijska 74
+  - line: 95-100 Zgierz, Poland
+
+# Build settings
+markdown: kramdown
+permalink: pretty
