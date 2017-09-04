@@ -15,3 +15,9 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
+
+    {% if site.google_analytics %} {% include google_analytics.html %} {% endif %}
+
+    <script src="{{ '/js/jquery.cookiesdirective.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/js/dropcap.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/js/scripts.js' | prepend: site.baseurl }}"></script>
